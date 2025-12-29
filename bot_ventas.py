@@ -10,7 +10,7 @@ TOKEN = "7758364839:AAHi9mYo5rLfg8ODc6Cm2hSSiB_tBted3j8"
 
 # RUTAS DE ARCHIVOS
 # Usamos r"" para que lea bien las barras de Windows
-LOGO_PATH = r"C:\Users\Diego Asenso\Downloads\WEB_ASENSO_FINAL\logo.png"
+LOGO_PATH = "logo.png"
 
 # ESTADOS DE LA CONVERSACIÓN
 SELECCIONAR_SERVICIO, INGRESAR_METROS, INGRESAR_LED = range(3)
@@ -264,4 +264,5 @@ if __name__ == '__main__':
     
     application.add_handler(conv_handler)
     print("🤖 ASENSO BOT 2.0: ACTIVO (REGLAS ACTUALIZADAS)...")
+
     application.run_polling()
