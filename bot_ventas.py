@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Callb
 from fpdf import FPDF
 
 # --- CONFIGURACIÓN ---
-TOKEN = "7758364839:AAHi9mYo5rLfg8ODc6Cm2hSSiB_tBted3j8"
+TOKEN = "7758364839:AAGqYuc0peghb348BMjP71A9Cm221wCic5I"
 
 # RUTAS DE ARCHIVOS
 # Usamos r"" para que lea bien las barras de Windows
@@ -266,3 +266,4 @@ if __name__ == '__main__':
     print("🤖 ASENSO BOT 2.0: ACTIVO (REGLAS ACTUALIZADAS)...")
 
     application.run_polling()
+
